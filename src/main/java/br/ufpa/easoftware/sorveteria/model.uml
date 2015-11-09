@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="340.0" y="254.0">br.ufpa.easoftware.sorveteria.Morango</node>
+    <node x="628.5" y="0.0">br.ufpa.easoftware.sorveteria.Sorvete</node>
+    <node x="889.0" y="141.0">br.ufpa.easoftware.sorveteria.Copo</node>
+    <node x="540.0" y="254.0">br.ufpa.easoftware.sorveteria.Flocos</node>
+    <node x="497.0" y="129.0">br.ufpa.easoftware.sorveteria.SorveteDecorator</node>
+    <node x="680.0" y="141.0">br.ufpa.easoftware.sorveteria.Taca</node>
+    <node x="455.0" y="254.0">br.ufpa.easoftware.sorveteria.Pave</node>
+    <node x="153.0" y="254.0">br.ufpa.easoftware.sorveteria.CoberturaMorango</node>
+    <node x="761.0" y="254.0">br.ufpa.easoftware.sorveteria.Napolitano</node>
+    <node x="765.0" y="141.0">br.ufpa.easoftware.sorveteria.Casquinha</node>
+    <node x="889.0" y="254.0">br.ufpa.easoftware.sorveteria.CoberturaCaramelo</node>
+    <node x="637.0" y="254.0">br.ufpa.easoftware.sorveteria.Chocolate</node>
+    <node x="1080.0" y="254.0">br.ufpa.easoftware.sorveteria.CoberturaChocolate</node>
+    <node x="0.0" y="254.0">br.ufpa.easoftware.sorveteria.ChocolateDiet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.ufpa.easoftware.sorveteria.CoberturaCaramelo" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="974.5" y="214.0" />
+      <point x="632.8333333333334" y="214.0" />
+      <point x="54.33333333333337" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Copo" target="br.ufpa.easoftware.sorveteria.Sorvete">
+      <point x="0.0" y="-15.5" />
+      <point x="923.5" y="99.0" />
+      <point x="779.7" y="99.0" />
+      <point x="67.20000000000005" y="39.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.CoberturaChocolate" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="1168.0" y="204.0" />
+      <point x="650.9444444444445" y="204.0" />
+      <point x="72.44444444444446" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Flocos" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Taca" target="br.ufpa.easoftware.sorveteria.Sorvete">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Chocolate" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="689.0" y="234.0" />
+      <point x="596.6111111111111" y="234.0" />
+      <point x="18.111111111111086" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Casquinha" target="br.ufpa.easoftware.sorveteria.Sorvete">
+      <point x="0.0" y="-15.5" />
+      <point x="817.0" y="109.0" />
+      <point x="746.1" y="109.0" />
+      <point x="33.60000000000002" y="39.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.ChocolateDiet" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="66.5" y="204.0" />
+      <point x="506.05555555555554" y="204.0" />
+      <point x="-72.44444444444446" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.CoberturaMorango" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="236.5" y="214.0" />
+      <point x="524.1666666666666" y="214.0" />
+      <point x="-54.33333333333337" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Morango" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="387.5" y="224.0" />
+      <point x="542.2777777777778" y="224.0" />
+      <point x="-36.22222222222217" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Napolitano" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="815.0" y="224.0" />
+      <point x="614.7222222222223" y="224.0" />
+      <point x="36.222222222222285" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.Pave" target="br.ufpa.easoftware.sorveteria.SorveteDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="487.5" y="234.0" />
+      <point x="560.3888888888889" y="234.0" />
+      <point x="-18.111111111111086" y="27.5" />
+    </edge>
+    <edge source="br.ufpa.easoftware.sorveteria.SorveteDecorator" target="br.ufpa.easoftware.sorveteria.Sorvete">
+      <point x="40.75" y="-27.5" />
+      <point x="619.25" y="109.0" />
+      <point x="678.9" y="109.0" />
+      <point x="-33.60000000000002" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.890282131661442" x="628.0" y="142.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
